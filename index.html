@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crowny Hotel</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">crowny</div>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#rooms">Rooms</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#news">News</a></li>
+          <li class="search-icon" id="search-icon">&#128269;</li>
+          <li><a href="#" class="book-now">Book Now</a></li>
+        </ul>
+
+        <div class="menu-icon" id="menu-icon">☰</div>
+      </nav>
+    </header>
+    <section class="video-section" id="home">
+      <video
+        id="background-video"
+        src="image/135141-761273478_small.mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+      <div class="video-overlay">
+        <h2 id="animated-text">Spend Your Holiday.</h2>
+      </div>
+    </section>
+
+    <div class="container">
+      <h2>Book <span>Your Room</span></h2>
+      <div class="booking-form">
+        <div class="form-group">
+          <label for="check-in">Check-In Date:</label>
+          <input type="date" id="check-in" name="check-in" />
+        </div>
+        <div class="form-group">
+          <label for="adults">Number of Adults:</label>
+          <input
+            type="number"
+            id="adults"
+            name="adults"
+            min="1"
+            max="10"
+            value="1"
+          />
+        </div>
+        <div class="form-group">
+          <label for="children">Number of Children:</label>
+          <input
+            type="number"
+            id="children"
+            name="children"
+            min="0"
+            max="10"
+            value="0"
+          />
+        </div>
+        <button id="check-availability">Check Availability</button>
+      </div>
+    </div>
+
+    <div class="about-container" id="about">
+      <div class="about-content">
+        <h2>About Our Hotel</h2>
+        <p>
+          Welcome to our luxurious hotel, where comfort meets elegance. Our
+          hotel offers top-notch amenities, exceptional service, and a prime
+          location to ensure a memorable stay for all our guests. Whether you're
+          here for business or leisure, we strive to make your experience
+          unforgettable.
+        </p>
+        <a href="learn.html">
+          <button class="learn-more-btn">Learn More About Us</button></a
+        >
+      </div>
+      <div class="about-image">
+        <img src="image/table-setting-791148_1280.jpg" alt="About Us Image" />
+      </div>
+    </div>
+
+    <div class="rooms-container" id="rooms">
+      <h2>Our Rooms</h2>
+      <div class="rooms-scroll">
+        <div class="room">
+          <img src="image/bed-4416515_1280.jpg" alt="Room 1" />
+          <div class="room-info">
+            <h3>Deluxe Room</h3>
+            <div class="stars">★★★★☆</div>
+            <p>
+              Enjoy a luxurious stay in our Deluxe Room with all modern
+              amenities.
+            </p>
+            <div class="price">$200/night</div>
+            <a href="booknow.html"
+              ><button class="book-now-btn">Book Now</button></a
+            >
+          </div>
+        </div>
+        <div class="room">
+          <img src="image/bedroom-1285156_1280.jpg" alt="Room 2" />
+          <div class="room-info">
+            <h3>Suite Room</h3>
+            <div class="stars">★★★★★</div>
+            <p>Experience ultimate comfort in our spacious Suite Room.</p>
+            <div class="price">$350/night</div>
+            <a href="booknow.html"
+              ><button class="book-now-btn">Book Now</button></a
+            >
+          </div>
+        </div>
+        <div class="room">
+          <img src="image/bedroom-3475656_960_720.jpg" alt="Room 3" />
+          <div class="room-info">
+            <h3>Single Room</h3>
+            <div class="stars">★★★☆☆</div>
+            <p>
+              Perfect for solo travelers, our Single Room offers great value.
+            </p>
+            <div class="price">$100/night</div>
+            <a href="booknow.html"
+              ><button class="book-now-btn">Book Now</button></a
+            >
+          </div>
+        </div>
+        <div class="room">
+          <img src="image/bedroom-5664221_1280.jpg" alt="Room 4" />
+          <div class="room-info">
+            <h3>Double Room</h3>
+            <div class="stars">★★★★☆</div>
+            <p>
+              Ideal for couples, our Double Room provides ample space and
+              comfort.
+            </p>
+            <div class="price">$150/night</div>
+
+            <a href="booknow.html"
+              ><button class="book-now-btn">Book Now</button></a
+            >
+          </div>
+        </div>
+        <div class="room">
+          <img src="image/hotel-room-1447201_1280 (1).jpg" alt="Room 5" />
+          <div class="room-info">
+            <h3>Family Room</h3>
+            <div class="stars">★★★★☆</div>
+            <p>
+              Our Family Room is perfect for families, offering extra space and
+              amenities.
+            </p>
+            <div class="price">$250/night</div>
+            <a href="booknow.html"
+              ><button class="book-now-btn">Book Now</button></a
+            >
+          </div>
+        </div>
+        <div class="room">
+          <img src="image/hotel-room-1447201_1280 (1).jpg" alt="Room 6" />
+          <div class="room-info">
+            <h3>Luxury Suite</h3>
+            <div class="stars">★★★★★</div>
+            <p>Indulge in luxury with our top-of-the-line Luxury Suite.</p>
+            <div class="price">$500/night</div>
+            <a href="booknow.html"
+              ><button class="book-now-btn">Book Now</button></a
+            >
+          </div>
+        </div>
+      </div>
+      <button class="scroll-left">‹</button>
+      <button class="scroll-right">›</button>
+    </div>
+
+    <div class="gallery-container" id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-scroll">
+        <div class="gallery-item">
+          <img
+            src="image/table-setting-791148_1280.jpg"
+            alt="Gallery Image 1"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="image/table-setting-791148_1280.jpg"
+            alt="Gallery Image 2"
+          />
+        </div>
+        <div class="gallery-item">
+          <img src="image/bedroom-1285156_1280.jpg" alt="Gallery Image 3" />
+        </div>
+        <div class="gallery-item">
+          <img src="image/landscape-2016308_1280.jpg" alt="Gallery Image 4" />
+        </div>
+        <div class="gallery-item">
+          <img src="image/hyacinth-787841_1280.jpg" alt="Gallery Image 5" />
+        </div>
+        <div class="gallery-item">
+          <img src="image/brick-wall-1834784_1280.jpg" alt="Gallery Image 6" />
+        </div>
+      </div>
+    </div>
+
+    <div class="services-container" id="services">
+      <div class="services-content">
+        <h2>Our Services</h2>
+        <div class="service-boxes">
+          <div class="service-box">
+            <i class="fas fa-utensils"></i>
+            <p>Delicious Food</p>
+          </div>
+          <div class="service-box">
+            <i class="fas fa-dumbbell"></i>
+            <p>Fitness</p>
+          </div>
+          <div class="service-box">
+            <i class="fas fa-concierge-bell"></i>
+            <p>In-house Restaurant</p>
+          </div>
+          <div class="service-box">
+            <i class="fas fa-spa"></i>
+            <p>Beauty Spa</p>
+          </div>
+          <div class="service-box">
+            <i class="fas fa-swimming-pool"></i>
+            <p>Swimming Pool</p>
+          </div>
+          <div class="service-box">
+            <i class="fas fa-shuttle-van"></i>
+            <p>Airport Shuttle</p>
+          </div>
+        </div>
+      </div>
+      <div class="services-image">
+        <img src="image/receptionists-5975962_1280.jpg" alt="Services Image" />
+      </div>
+    </div>
+
+    <header class="heade" id="news">
+      <h1>Hotel News</h1>
+    </header>
+    <section class="news-container">
+      <div class="news-item" id="news1">
+        <img src="image/restaurant-1837150_1280.jpg" alt="News Image 1" />
+        <div class="news-content">
+          <h2>News Title 1</h2>
+          <div class="admin-icons">
+            <span class="admin-icon"><i class="fas fa-user"></i> Admin</span>
+            <span class="admin-icon"><i class="fas fa-thumbs-up"></i> 100</span>
+            <span class="admin-icon"><i class="fas fa-comments"></i> 50</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+      <div class="news-item" id="news2">
+        <img src="image/hyacinth-787841_1280.jpg" alt="News Image 2" />
+        <div class="news-content">
+          <h2>News Title 2</h2>
+          <div class="admin-icons">
+            <span class="admin-icon"><i class="fas fa-user"></i> Admin</span>
+            <span class="admin-icon"><i class="fas fa-thumbs-up"></i> 80</span>
+            <span class="admin-icon"><i class="fas fa-comments"></i> 30</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+      <!-- Add more news items as needed -->
+    </section>
+
+    <div class="subscribe-container">
+      <input type="email" placeholder="Enter your email" />
+      <input type="submit" value="Subscribe" />
+    </div>
+
+    <footer class="footer">
+      <div class="footer-column" id="footer-column">
+        <h3>Company Name</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+          odio. Praesent libero. Sed cursus ante dapibus diam.
+        </p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3>Links</h3>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p>
+          <i class="fas fa-map-marker-alt"></i> 1234 Street Name, City, State,
+          12345
+        </p>
+        <p><i class="fas fa-phone-alt"></i> (123) 456-7890</p>
+        <p><i class="fas fa-envelope"></i> email@example.com</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Company Name. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
