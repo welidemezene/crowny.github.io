@@ -11,7 +11,7 @@
 
 ## 🚀 Live Demo
 
-👉 [View Website]([https://your-deployment-url.com](https://crowny-github-io.vercel.app/))
+👉 [View Website](https://crowny-github-io.vercel.app/)
 
 ---
 
