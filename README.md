@@ -5,9 +5,7 @@
 
 
 
-![Crowny Preview](./image/abouthotel.pngpreview.jpg)
-
-
+![Crowny Preview](./image/abouthotel.png)
 
 ---
 
